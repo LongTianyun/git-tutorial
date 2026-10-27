@@ -5,3 +5,7 @@ def beam_energy(gamma):
     return gamma * 0.511
 
 print(beam_energy(1000))
+
+def gamma_from_energy(energy):
+    """Convert beam energy in MeV to gamma."""
+    return energy / 0.511
