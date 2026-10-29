@@ -13,3 +13,7 @@ def gamma_from_energy(energy):
 def kinetic_energy(gamma):
     """Calculate electron kinetic energy in MeV."""
     return (gamma - 1) * 0.511
+
+def momentum_from_gamma(gamma):
+    """Calculate electron momentum in MeV/c."""
+    return 0.511 * (gamma**2 - 1)**0.5
